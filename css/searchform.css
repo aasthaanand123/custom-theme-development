@@ -1,0 +1,30 @@
+.searchform {
+  display: flex;
+}
+.searchform input {
+  padding: 8px;
+  width: 85%;
+  border: none;
+  padding: none;
+  outline: none;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: #7c412e83;
+  color: #fee0c8;
+  font-size: 1.1rem;
+}
+.searchform input::placeholder {
+  color: #fee0c8;
+  font-size: 1.1rem;
+  padding: 8px;
+}
+.searchform button {
+  border: none;
+  outline: none;
+  padding: 8px;
+  color: #fee0c8;
+  background-color: #7c412e;
+  font-size: 1.1rem;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

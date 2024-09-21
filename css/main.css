@@ -1,0 +1,91 @@
+.logo {
+  width: 110px;
+  margin-left: 30px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fee0c874;
+  box-shadow: 0 2px 4px #7c412e3e;
+}
+ul.menu {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+ul.menu li {
+  margin-right: 30px;
+}
+ul.menu li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #7c412e;
+}
+.fredericka {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.searchform-container {
+  width: 30%;
+}
+footer {
+  background-color: #502418de;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+footer p {
+  margin-bottom: 0px;
+  font-size: 1.2rem;
+}
+footer div ul.menu {
+  justify-content: center;
+  margin-top: 10px;
+}
+footer div ul.menu li a {
+  color: #ffcc99;
+}
+footer div ul.menu li a::after {
+  content: "|";
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ffcc99;
+  font-size: 1.2rem;
+}
+footer div ul.menu li {
+  margin: 0;
+}
+footer div ul.menu li:last-child a::after {
+  content: "";
+}
+/* front page */
+.front-banner {
+  background-size: cover;
+  color: #502418de;
+  display: flex;
+  height: 78vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6977867;
+}
+.front-banner-welcome {
+  margin: 0;
+  font-size: 3.5rem;
+}
+.front-banner-message p {
+  margin: 0;
+  font-size: 2.3rem;
+  color: black;
+  /* color: #763b27; */
+}

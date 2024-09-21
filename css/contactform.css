@@ -1,0 +1,24 @@
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #e6977867;
+}
+.contact-space {
+  margin-top: 30px;
+}
+.contact-section .contact-space {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-section h1 {
+  text-align: center;
+  font-size: 1.9rem;
+}
+.contact-col-1 {
+  width: 650px;
+}
+.information div p {
+  text-align: center;
+}

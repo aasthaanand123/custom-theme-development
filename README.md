@@ -12,6 +12,8 @@ The **_*ingredients*_** field values should be separated by a new line. The **_*
 
 Templates for **_About Us_** and **_Contact Us_** are available and all pages are customisable(featured images and text)
 
+Site logo is directly configured by setting site icon in settings
+
 ---
 
 ### Reference Image

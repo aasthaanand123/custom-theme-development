@@ -14,6 +14,8 @@ Templates for **_About Us_** and **_Contact Us_** are available and all pages ar
 
 Site logo is directly configured by setting site icon in settings
 
+**(The theme is completely responsive)**
+
 ---
 
 ### Reference Image

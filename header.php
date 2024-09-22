@@ -25,6 +25,7 @@
         <!-- Header menu display -->
         <?php wp_nav_menu( array(
             'theme_location'=>"header_menu",
+            'container_class'=>'menu-wrapper',
         ) )
         ?>
         <!-- Header menu display -->

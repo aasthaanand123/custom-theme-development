@@ -50,6 +50,7 @@ div.search-results-container {
 }
 .recipe-single-wrapper h1 {
   margin-bottom: 0;
+  text-align: center;
 }
 
 .single-recipe-date {
@@ -62,17 +63,18 @@ div.search-results-container {
 }
 /* comment form styling */
 ul.ingredients-list,
-.steps-list {
+.steps-list,
+.comment-respond {
   list-style-type: none;
   color: #502418de;
   padding: 0;
   margin-bottom: 0;
-  width: 50%;
+  width: 70%;
 }
-.steps-list,
-.comment-respond,
+
 .img-single-recipe {
-  width: 50%;
+  width: 35%;
+  border-radius: 20px;
 }
 
 .logged-in-as {
@@ -88,7 +90,6 @@ ul.ingredients-list,
 }
 .comment-form-comment textarea {
   margin-top: 10px;
-  padding: 8px;
   height: 100px;
   width: 50%;
   border: none;
@@ -145,4 +146,26 @@ ul.ingredients-list,
   font-size: 1.1rem;
   border-radius: 20px;
   font-family: "Fredericka the Great", serif;
+}
+@media screen and (max-width: 800px) {
+  .steps-list,
+  .comment-respond,
+  .img-single-recipe {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 685px) {
+  .comment-form-comment textarea {
+    width: 100%;
+  }
+  .form-submit input {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .steps-list,
+  .comment-respond,
+  .img-single-recipe {
+    width: 80%;
+  }
 }

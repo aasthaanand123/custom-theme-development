@@ -89,3 +89,41 @@ footer div ul.menu li:last-child a::after {
   color: black;
   /* color: #763b27; */
 }
+
+/* Media Query */
+@media screen and (max-width: 855px) {
+  header {
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  .searchform-container {
+    width: 50%;
+  }
+  .menu-wrapper {
+    width: 60%;
+  }
+  .menu-wrapper .menu {
+    justify-content: space-evenly;
+  }
+  ul.menu li {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .searchform-container {
+    width: 70%;
+  }
+  .menu-wrapper {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .menu-wrapper {
+    width: 88%;
+  }
+}

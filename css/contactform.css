@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding: 52px;
   background-color: #e6977867;
 }
 .contact-space {
@@ -17,8 +17,27 @@
   font-size: 1.9rem;
 }
 .contact-col-1 {
-  width: 650px;
+  width: 50%;
+}
+.information {
+  width: 40%;
 }
 .information div p {
   text-align: center;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 855px) {
+  .contact-section .contact-space {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-col-1 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .information {
+    width: 100%;
+  }
 }

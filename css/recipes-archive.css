@@ -148,6 +148,7 @@ ul.ingredients-list,
   font-family: "Fredericka the Great", serif;
 }
 @media screen and (max-width: 800px) {
+  ul.ingredients-list,
   .steps-list,
   .comment-respond,
   .img-single-recipe {
@@ -163,6 +164,7 @@ ul.ingredients-list,
   }
 }
 @media screen and (max-width: 550px) {
+  ul.ingredients-list,
   .steps-list,
   .comment-respond,
   .img-single-recipe {
